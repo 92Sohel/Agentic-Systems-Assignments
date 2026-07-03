@@ -7,7 +7,7 @@ from httpcore import stream
 from langchain_core.prompts import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-os.environ["GOOGLE_API_KEY"]="AQ.Ab8RN6LD6VkqoKM7GpQVUY7fq-KSF4vbOwh8NgbBEAMI0iUx3A"
+os.environ["GOOGLE_API_KEY"]="AABB"
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
